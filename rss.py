@@ -4,7 +4,7 @@ import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 
-API_KEY = os.environ["YOUTUBE_API_KEY"]
+API_KEY = os.environ["AIzaSyBu595gPXxjllyRCQoagowpNpg2BsejsL4"]
 SEARCH = "Ragnarok WoE"
 
 url = "https://www.googleapis.com/youtube/v3/search?" + urllib.parse.urlencode({
